@@ -1,0 +1,66 @@
+---
+// 1. The frontmatter prop gives access to frontmatter and other data
+const { frontmatter } = Astro.props;
+---
+
+<html>
+  <head>
+    <!-- Add other Head elements here, like styles and meta tags. -->
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <!-- 2. Rendered HTML will be passed into the default slot. -->
+    <slot />
+  </body>
+  <style is:global>
+    @font-face {
+      font-family: "Roboto";
+      src: url("/fonts/Roboto-Regular.ttf");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    * {
+      margin: 0;
+    }
+    * {
+      font-family: "Roboto", sans-serif;
+    }
+    body {
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      margin: 2rem;
+      background-color: #f7f2ea;
+      color: #393b3b;
+    }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      overflow-wrap: break-word;
+    }
+
+    h1 {
+      border-left: 5px solid #00a4a9;
+      padding-left: 1rem;
+    }
+
+    h1,
+    h2 {
+      margin-bottom: 1rem;
+    }
+    p,
+    li,
+    ul {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</html>
