@@ -5,7 +5,14 @@ title: Trevor Kirpaul
 
 # Trevor Kirpaul
 
-<b>Fullstack Web Developer</b> living in the Dayton, OH area. I love creating websites and cooking amazing food with my wife <3.
+<b>Fullstack Web Developer</b> living in the Dayton, OH area. I love creating websites and cooking amazing food with my wife.
+
+I am currently looking for a new opportunity! Feel free to reach out on LinkedIn for more details and for my up to date resume.
+
+## Links
+
+- [LinkedIn](https://www.linkedin.com/in/trevorkirpaul/)
+- [Github](https://github.com/trevorkirpaul)
 
 ## Skills
 
